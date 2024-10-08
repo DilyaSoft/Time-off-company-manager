@@ -1,0 +1,101 @@
+.flex-row-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.small-xs {
+    font-size: 12px;
+}
+
+.landing-navbar {
+    top: 0;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+}
+  
+.landing-navbar > * {
+    padding: 25px;
+}
+
+.landing-footer {
+    background-color: black;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+.landing-main {
+    background-color: white;
+    height: 100%;
+}
+
+.sign-in-title {
+    display: flex;
+    justify-content: center;
+}
+
+.form-sign-on-control {
+    margin-top: 25px !important;
+}
+
+
+#forgot-password-btn {
+    text-align: right;
+    background-image: linear-gradient(
+      to right,
+      #54b3d6,
+      #54b3d6 50%,
+      #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+  
+#forgot-password-btn:before{
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+  
+#forgot-password-btn:hover {
+    background-position: 0;
+    cursor: pointer;
+}
+  
+#forgot-password-btn:hover::before {
+    width: 100%;
+}
+
+.alert-validation-dialog {
+    margin-bottom: 15px;
+}

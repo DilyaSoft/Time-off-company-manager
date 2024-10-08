@@ -1,0 +1,45 @@
+.workspace-navbar {
+    height: 100px;
+    background-color: black;
+    align-items: center;
+}
+
+.company-name-input > input {
+    color:orange !important;
+}
+
+.company-name {
+    margin-left: 20px;
+}
+
+#team-select, #request-select {
+    min-width: 120px;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.user-profile {
+    margin-right: 20px;
+}
+
+.calendar-cell {
+    transition: all 1s;
+    user-select: none;
+}
+
+.calendar-cell:hover {
+    background-color: blue;
+    color:white;
+}
+
+.calendar-cell-timeOff-not-approved {
+    background-color: white;
+    cursor: pointer;
+}
+
+.calendar-cell-timeOff-approved {
+    background-color: rgb(217, 99, 233);
+    cursor: pointer;
+}

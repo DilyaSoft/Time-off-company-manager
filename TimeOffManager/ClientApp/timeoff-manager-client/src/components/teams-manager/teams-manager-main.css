@@ -1,0 +1,9 @@
+.teams-navbar {
+    height: 100px;
+    background-color: black;
+    align-items: center;
+}
+
+.invite-status-badge {
+    height: 50px;
+}
